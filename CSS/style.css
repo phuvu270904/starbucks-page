@@ -1,0 +1,353 @@
+html{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+body{
+	border-top: 10px solid #2F6B1D;
+	border-bottom: 5px solid black;
+	font-family: Bahnschrift Light;
+	font-size: 13px;
+	margin: 0px auto;
+}
+
+#menu_top{
+	background: white;
+	height: 50px;
+	margin: center;
+	margin-left: 100px;
+}
+
+#banner{
+	background: white;
+	height: 500px;
+}
+
+#main{
+	margin-top: 200px;
+	margin-left: 200px;
+}
+
+#main #left {
+	margin-top: 100px;
+	background: none;
+	width: 600px;
+	float: left;
+	min-height:  400px;
+}
+
+#main #right{
+	background: none;
+	width: 600px;
+	float: left;
+	min-height:  400px;
+}
+
+#footer{
+	margin-top: 1300px;
+	background: #F7F7F7;
+	width: 1600px;
+	text-align: left;
+	height: 500px;
+	line-height: 60px;
+}
+
+.logo{
+	float: left;
+}
+
+.position{
+	float: right;
+	margin-right: 200px;
+	font-size: 15px;
+}
+.mapmarker svg{
+	height: 20px;
+	width: 30px;
+	color: green;
+}
+
+#menu_top ul {
+	height: 20px;
+}
+
+#menu_top ul li{
+	list-style: none;
+	float: left;
+}
+
+#menu_top ul li a{
+	font-family: Bahnschrift Light;
+	font-weight: bolder;
+	color: black;
+	text-decoration: none;
+	display: block;
+	height:30px;
+	line-height: 20px;
+	padding: 30px 20px 0px 20px;
+	font-size: 15px;
+}
+
+
+#menu_top ul li a:hover{
+	background: black;
+	color: white;
+}
+#menu_top ul li img{
+	width: 60px;
+	margin: 20px;
+}
+#banner img{
+    width:  1600px;
+    position: static;
+}
+
+#main #left ul{
+	margin: 0px;
+	padding: 0px;
+}
+#main #left ul li{
+	list-style: none;
+}
+
+#main #left ul li h2{
+	list-style: none;
+	font-family: Bahnschrift Light;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+#main #left ul li h3{
+	list-style: none;
+	font-family: Bahnschrift Light;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+
+#main #right img{
+	width: 500px;
+	margin-left: 100px;
+}
+
+#main #left ul li a{
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-underline-offset:  5px;
+	font-family: Bahnschrift Light;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#main #left img{
+	margin-top: 300px;
+}
+
+#main #right ul li{
+	list-style: none;
+	font-size: 20px;
+}
+
+#main #right ul li h2{
+	margin-top: 300px;
+	font-size: 30px;
+	font-family: Bahnschrift Light;
+}
+
+#main #right ul li h3{
+	font-size:  20px;
+}
+
+#main #right ul li a{
+	color: black;
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-underline-offset:  7px;
+	font-family: Bahnschrift Light;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+#footer #footer_top{
+	margin-top: 100px;
+	height: 100px;
+	background: #F0F0F0;
+	border-bottom: 3px solid white;
+}
+
+#footer #footer_top img{
+	text-decoration: inherit;
+	width: 40px;
+	margin-top: 30px;
+	float: left;
+	margin-left: 70px;
+}
+
+#footer #footer_top img:hover{
+	background: grey;
+	
+}
+
+#footer #footer_main{
+	height: 150px;
+	background:  #F7F7F7;
+}
+
+.rotate img{
+	margin: 0px auto;
+	float: right;
+	width: 25px;
+
+}
+
+.column1{
+	list-style: none;
+	line-height: 20px;
+	margin-left: 50px;
+}
+
+.setting_column1{
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.setting_column1 h2{
+	font-size: 20px;
+}
+
+.setting_column1 p a{
+	text-decoration: none;
+	color:black
+}
+
+.setting_column1 p a:hover{
+	color:grey;
+}
+
+.column2{
+	list-style-type: none;
+	line-height: 20px;
+}
+
+.setting_column2 p a{
+	font-weight: bolder;
+	text-decoration: none;
+	color:black;
+	font-size: 15px;
+}
+
+.setting_column2 p a:hover{
+	color:grey;
+}
+
+.setting_column2 h2 a{
+	Color:black;
+	text-decoration: none;
+}
+
+.setting_column2 h2 a:hover{
+	color:grey;
+}
+
+.column3{
+	list-style: none;
+	line-height: 20px;
+}
+
+.setting_column3{
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.setting_column3 h2{
+	font-size: 20px;
+}
+
+.setting_column3 p a{
+	text-decoration: none;
+	color:black;
+}
+
+.setting_column3 p a:hover{
+	color:grey;
+}
+
+
+.grid{
+	margin-top: 30px;
+	display:grid;
+	grid-template-columns: 250px 250px 250px 700px;
+}
+
+.footer_bottom{
+	margin-top: 20px;
+}
+
+.line1 {
+	list-style: none;
+	padding: 0px 20px 15px 20px;
+	line-height: 20px;
+	margin-left: 50px;
+}
+
+.vn {
+	float: left;
+	display: block;
+	list-style: none;
+	word-spacing: 20px;
+	padding: 0px 20px 0px 20px;
+}
+
+.language{
+	font-family: Bahnschrift Light ;
+	font-size: 15px;
+	font-weight: bolder;
+	float: left;
+	padding: 0px 20px 0px 20px;
+	display:  block;
+	border-left: 1px solid grey;
+}
+
+.english{
+	word-spacing: 20px;
+	display: block;
+	padding: 0px 20px 0px 20px;
+}
+
+.english a{
+	font-size: 15px;
+	font-family:Bahnschrift Light ;
+	color: black;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+.footer_bottom1{
+	margin-left: 30px;
+}
+
+.line2{
+	list-style: none;
+	line-height: 20px;
+}
+.trogiup a{
+	float: left;
+	display: block;
+	padding: 0px 20px 0px 20px;
+	font-size: 15px;
+	color: #666666;
+	text-decoration: none;
+	border-right: 1px solid grey;
+	border-spacing: 2px;
+	font-weight: bolder;
+}
+
+.footer_copyright{
+	clear: left;
+	margin-left: 90px;
+}
